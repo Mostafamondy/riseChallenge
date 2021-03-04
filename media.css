@@ -1,0 +1,163 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+@media (max-width:400px){
+    .log .bt{
+        margin-top: 10px;
+        margin-left: 1px;
+        width: 100px;
+    }
+    .sign button{
+        width: 70px;
+       position: relative;
+      right:  -10px;
+       top: -80px;
+    }
+    .chat .kind{
+        background:#222;
+        width: 65%;
+        padding:5px;
+        border: none;
+        color: #B6B5B5;
+        margin-bottom:15px;
+        box-shadow: 2px 2px 2px 2px #000;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 40px;
+    }
+}
+@media (max-width: 767px) {
+    .our-low ol li{
+        margin-bottom: 10px;
+        font-size: 17px;
+        line-height: 1.5;
+        text-indent: 2px;
+        margin-top: 10px;
+    }
+   
+
+    .navbar .nav li {
+        padding:0;
+        float: left;
+        text-align: left;
+        overflow: hidden;
+    }
+    .navbar .dropdown-menu li {
+        padding:0;
+        float: left;
+        text-align:center;
+       
+    }
+    .option-box{
+        position:fixed;
+        top:150px;
+        left:0;
+        z-index:9999;
+    }
+    .about-me img{
+        width: 100%;
+        margin-left: 1px;
+        box-shadow: 3px 3px 3px 3px #000;
+        z-index: 99999;
+        margin-bottom: 10px;
+    }
+    .chat .kind{
+        background:#222;
+        width: 65%;
+        padding:5px;
+        border: none;
+        color: #B6B5B5;
+        margin-bottom:15px;
+        box-shadow: 2px 2px 2px 2px #000;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 80px;
+    }
+    .hr{
+       transform: rotate(-90deg);
+    }
+    .sign{
+        margin-bottom: 167px;
+    }
+    .log{
+        position: relative;
+        top: -71px;
+        margin-left: 5px;
+        margin-right: -4px;
+        margin-top: 100px;
+    }
+    .log .h1{
+        text-align: right;
+        position: relative;
+        bottom: -200px;
+        right: 40px;
+    }
+    .log .bt{
+        margin-top: 10px;
+        margin-left: 1px;
+    }
+    .faq-intro  h1 ~ hr{
+        width:50%;
+        margin-left: 27%;
+        background-color: #000;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .about-us hr{
+        width:50%;
+        margin-left: 27%;
+        background-color: #000;
+    }
+    .about-us h1{
+        font-size: 60px;
+        font-style:normal;
+    }
+    .about-features p{
+        margin-bottom:20px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+}
+
+@media only screen and (min-width: 768px)and(max-width:960px){
+    .hr{
+        opacity: 0;
+     }
+     .sign{
+         margin-bottom: 167px;
+     }
+     .log{
+         position: relative;
+         top: -71px;
+         margin-left: 5px;
+         margin-right: -4px;
+         margin-top: 100px;
+     }
+     .log .h1{
+         text-align: right;
+         position: relative;
+         bottom: -200px;
+         right: 150px;
+     }
+     .log .bt{
+         margin-top: 10px;
+         margin-left: 1px;
+     }
+     .about-us hr{
+        width:50%;
+        margin-left: 27%;
+        background-color: #000;
+    }
+    .faq-intro  h1 ~ hr{
+        width:50%;
+        margin-left: 27%;
+        background-color: #000;
+        color: #000;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    .hr{
+        transform: rotate(-90deg);
+     }
+}
